@@ -29,9 +29,9 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("assets/img/backgrounds/1.jpeg");
-    $('.call-to-action-container').backstretch("assets/img/about/pillars2.png");
-    $('.testimonials-container').backstretch("assets/img/backgrounds/1.jpeg");
+    $('.top-content').backstretch("assets/img/fitness/wo_armliftshaded.jpg");
+    $('.call-to-action-container').backstretch("assets/img/fitness/wo_armliftshaded.jpg");
+    $('.testimonials-container').backstretch("assets/img/fitness/wo_armliftshaded.jpg");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
